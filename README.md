@@ -1,1 +1,4 @@
-# kompozyt
+# Kompozyt
+
+## Environment
+ Requires Vagrant, VirtualBox
