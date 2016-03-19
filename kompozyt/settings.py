@@ -78,12 +78,8 @@ WSGI_APPLICATION = 'kompozyt.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'kompozyt',
-        'USER': 'admin',
-        'PASSWORD': 'admin',
-        'HOST': '192.168.11.21',
-        'CONN_MAX_AGE': 60,
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
