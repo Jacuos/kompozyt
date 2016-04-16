@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scrum</title>
+    </head>
+
+    <body>
+        {% if user.is_authenticated %}
+        <h1>O KURWA {{ user.username }}!</h1><a href="/usr_logout/">logout</a><br />
+        <strong>Tu się będą działy cuda. Kutasy będą z nieba leciały, mówię Ci.</strong>
+
+        {% endif %}
+    </body>
+</html>
